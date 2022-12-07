@@ -1,0 +1,22 @@
+
+button {
+    margin: 10px;
+    height: 75px;
+    width: 150px;
+    font-size: 1.1em;
+}
+
+.c1 {
+    width: 200px;
+    height: 170px;
+    margin: auto;
+}
+
+.c2 {
+    background-color: aquamarine;
+}
+
+.c3 {
+    border: 2px solid rebeccapurple;
+    background-color: darkviolet;
+}

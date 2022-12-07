@@ -1,0 +1,11 @@
+#id_div1{
+    display: flex;
+    height: 40px;
+    background-color: aliceblue;
+    justify-content: space-between;
+}
+
+#id_div1 div{
+    flex: 0 0 150px;
+    background-color: red;
+}
