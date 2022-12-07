@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <link rel="icon" type="image/x-icon" href="../js.ico">
+   <link href="ex5.css" rel="stylesheet" media="all">
+   <link href="../style.css" rel="stylesheet" media="all">
+
+   <title>Exercice 5</title>
+</head>
+
+<body>
+   <h1>Les exercices JavaScript HTML et CSS</h1>
+
+   <a href="../index.html">HOME</a>
+
+   <h2>Exercice 5</h2>
+   <p>A chaque clique sur le bouton, ajouter ou retirer la classe c3 de la division.<br>
+      Le texte du bouton doit changer pour indiquer l'action à l'utilisateur.<br>
+      La division supérieure doit afficher la liste des classes présente dans la division div1</p>
+
+   <ul>
+      <li>Le fichier CSS ne doit pas être modifié.</li>
+   </ul>
+
+   <h4>Aides</h4>
+   <ul>
+      <li>Dans le débogueur du navigateur, aller dans l'onglet "Debogueur".</li>
+      <li>Sélectionner le fichier ex5.js et placer un point d'arrêt pour analyser le code.</li>
+      <li>Comme vous pouvez le voir dans la fonction, une variable window.test est utilisée.<br>
+         Essayer d'entrer window.test dans la console du débogueur.
+      </li>
+      <li>Chercher les propriétés et les méthodes qui pourraient être utile dans l'objet "window.test"
+         pour manipuler les classes de la division.
+      </li>
+   </ul>
+
+   <button id="btn1" onclick="addClass(this)">Add class</button>
+
+   <div class="c1">
+      <div id="class_list" style="text-align:center">c1 c2</div>
+      <div id="div1" class="c1 c2"></div>
+   </div>
+   
+
+   <script src="ex5.js"></script>
+</body>
+
+</html>

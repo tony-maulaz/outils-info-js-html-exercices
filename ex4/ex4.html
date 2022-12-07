@@ -16,12 +16,15 @@
    <a href="../index.html">HOME</a>
 
    <h2>Exercice 4</h2>
-   <p>Modifier les style des divisions ci-dessous pour les afficher ainsi:</p>
+   <p>Afficher une bordure noire de 2px à la division lorsque la souris passe par-dessus.</p>
+
    <ul>
-      <li>Le panneau de droite fait 300px de large.</li>
+      <li>Utiliser la propriété style de l'objet div.</li>
+      <li>Le fichier CSS ne doit pas être modifié.</li>
+      <li>Créer une seule fonction en JavaScript.</li>
    </ul>
 
-   <div id="div1"></div>
+   <div id="div1" onmouseover="addBorder(this)" onmouseout="addBorder(this, true)"></div>
 
    <script src="ex4.js"></script>
 </body>
