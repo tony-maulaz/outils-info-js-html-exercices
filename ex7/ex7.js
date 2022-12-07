@@ -1,23 +1,25 @@
+function load(){
+    test()
+}
 
-function setName(){
-
-    const input = document.getElementById("input-name")
-    let name = input.value
-
-    console.log("input name : " + name)
-    
-    // Save the name in the local storage
-    if( name != "" )
-        localStorage.setItem("name", name)
-
+function test(){
+    console.log("test")
     console.log(localStorage)
 
-    name = localStorage.getItem("name")
-    console.log("local storage name : " + name)
-    if( name == null || name == ""){
-        name = "John Doe"   
-    }
+    localStorage.test1 = 10
+    localStorage.setItem("test2", 20)
+    localStorage["test3"] = 30
 
-    const span = document.getElementById("text-name")
-    span.innerHTML = name
+    console.log(localStorage.test1)
+    console.log(localStorage.getItem("test2"))
+    console.log(localStorage["test3"])
+}
+
+function setName(){
+    console.log("input name : " + name)    
+}
+
+function setWidth(){
+    const input = document.getElementById("input-width")
+    console.log("Input width : " + input.value)
 }
